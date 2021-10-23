@@ -1,0 +1,27 @@
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap:15px 20px;
+}
+.grid-item{
+    min-height: 100px;
+    background-color: green;
+}
+.grid-item:nth-child(3){
+    background-color: red;
+}
+
+.icon path {
+    fill:red;
+}
+.icon-url{
+    fill:green;
+    stroke: black;
+    stroke-opacity: 0.5;
+}
+
+.cat{
+    mask:url(../imgs/tree.svg)
+}
+

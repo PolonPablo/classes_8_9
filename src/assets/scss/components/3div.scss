@@ -1,0 +1,38 @@
+.red{
+    width: 800px;
+    height:800px;
+    background-color:red;
+    margin:0 auto;
+    border: 2px solid black;
+    padding:80px;
+    transition: background-color 2s ease 0s;
+    &:hover{
+        background-color: pink;
+        .blue{
+            background-color: white;
+        }
+        .yellow{
+            background-color: green;
+        }
+    }
+}
+.blue{
+    width: 600px;
+    height:600px;
+    background-color:blue;
+    margin:0 auto;
+    border: 2px solid black;
+    padding:80px;
+    transition: background-color 3s ease 2s;
+}
+.yellow{
+    width: 400px;
+    height:400px;
+    background-color: yellow;
+    margin:0 auto;
+    border: 2px solid black;
+    padding:80px;
+    transition: background-color 4s ease 5s;
+}
+
+
